@@ -1,3 +1,4 @@
+/*
 * {
 	margin: 0;
 	padding: 0;
@@ -95,5 +96,39 @@ span {
 	padding-bottom: 25%;
 	font-family: "Arial", Times, serif;
 }
+
+*/
+
+.body1 {
+  
+	padding: 250px 0;
+	margin: 30px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  font-size: 2rem;
+  background-image: url("https://img.buzzfeed.com/buzzfeed-static/static/2015-10/27/17/enhanced/webdr07/longform-24536-1445980295-3.jpg");
+  background-size: cover;
+  background-size: auto auto;
+  color: #102118;
+  
+}
+
+.body1 {
+	animation: blinker 0.1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0.0; }
+}
+
+.meme1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    margin:-60px 0 0 -60px;
+    animation:spin 1s linear infinite;
+}
+@keyframes spin { 100% { transform: rotate(360deg);
 
 
