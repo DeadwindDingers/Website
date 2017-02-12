@@ -10,7 +10,8 @@ body{
 }
 
 #header{
-    position: absolute;
+    position: fixed;
+    background: #F4F7F6;
     left: 10px;
     top: 0px;
     right: 10px;
