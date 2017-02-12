@@ -1,10 +1,14 @@
 html {
     background: #F4F7F6;
-    background-image: linear-gradient(0deg, #FFFFFF, #F4F7F6);
-    height: 100%;
+/*    background-image: linear-gradient(90deg, #FFFFFF, #F4F7F6);*/
     width: 100%;
-    min-height: 100%;
 }
+body{
+    margin:0;
+    padding:0;
+    height:100%;
+}
+
 #header{
     position: absolute;
     left: 10px;
@@ -12,13 +16,22 @@ html {
     right: 10px;
     height: 100px;
 }
+#content{
+    padding-top: 100px;
+    text-align: left;
+    padding-bottom: 100px;
+    font-family: 'Roboto Slab', serif;
+}
+
+/*
 #footer{
-    position: absolute;
-    right: 10px;
-    bottom: 0px;
-    left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 30px;
     text-align: center;
 }
+*/
+
 .logo{
     width:92px;
     height:92px;
@@ -47,7 +60,7 @@ li a {
 .bottom {
     height: 15px;
     width: 100%;
-    background-color: #000000;
+    background-color: #101010;
     transform: translate(0,12px)
 }
 .active + .bottom{
@@ -57,13 +70,13 @@ a:hover + .bottom{
     transition-duration: .5s;
     transform: translate(0,0px)
 }
+
 .bar{
     height: 2px;
     background:gainsboro;
 }
-#content{
-    padding-top: 100px;
+
+.title{
     text-align: center;
-    vertical-align: middle;
-    font-size: 30px;
+    font-size: 20px;
 }
