@@ -72,6 +72,7 @@ h3 {
     height: 15px;
     width: 100%;
     background-color: #101010;
+    transition-duration: .25s;
     transform: translate(0,12px)
 }
 .active + .bottom{
