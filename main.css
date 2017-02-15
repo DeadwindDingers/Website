@@ -14,10 +14,10 @@ body{
     left: 10px;
     top: 0px;
     right: 10px;
-    height: 100px;
+    height: 80px;
 }
 #content{
-    padding-top: 150px;
+    padding-top: 100px;
     padding-left: 200px;
     padding-right: 200px;
     text-align: left;
@@ -34,9 +34,9 @@ body{
 */
 
 .logo{
-    width:92px;
-    height:92px;
-    padding: 4px;
+    width:76px;
+    height:76px;
+    padding: 2px;
     bottom: 0px;
     left: 0px;
     float: left;
@@ -46,13 +46,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    height: 100px;
+    height: 80px;
 }
+
 li {
-    width: 90px;
-    padding-top: 40px;
+    font-size: 22px;
+    width: 130px;
+    padding-top: 14px;
     float: right;
 }
+
 li a {
     display: block;
     color: black;
@@ -70,18 +73,19 @@ h3 {
 }
 
 .bottom {
-    height: 15px;
+    height: 30px;
     width: 100%;
-    background-color: #101010;
+    background-color: #222222;
     transition-duration: .1s;
-    transform: translate(0,2px);
+    transform: translate(0,0px);
 }
+
 .active{
     background-color: #D3D3D3;
 }
 a:hover + .bottom{
     transition-duration: .5s;
-    transform: translate(0,-11px);
+    transform: translate(0,-12px);
 }
 
 .bar{
