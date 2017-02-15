@@ -14,7 +14,7 @@ body{
     left: 10px;
     top: 0px;
     right: 10px;
-    height: 70px;
+    height: 100px;
 }
 #content{
     padding-top: 150px;
@@ -46,8 +46,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    padding-top:30px;
-    height: 70px
+    height: 100px;
 }
 li {
     float: right;
