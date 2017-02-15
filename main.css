@@ -1,6 +1,7 @@
 html {
     background: #F4F7F6;
     width: 100%;
+    overflow-y: scroll;
 }
 body{
     margin:0;
