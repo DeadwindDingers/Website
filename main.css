@@ -1,6 +1,5 @@
 html {
     background: #F4F7F6;
-/*    background-image: linear-gradient(90deg, #FFFFFF, #F4F7F6);*/
     width: 100%;
 }
 body{
@@ -72,11 +71,11 @@ h3 {
     height: 15px;
     width: 100%;
     background-color: #101010;
-    transition-duration: .25s;
+    transition-duration: .1s;
     transform: translate(0,12px)
 }
-.active + .bottom{
-    transform: translate(0,0px)
+a:.active{
+    background-color: #101010;
 }
 a:hover + .bottom{
     transition-duration: .5s;
