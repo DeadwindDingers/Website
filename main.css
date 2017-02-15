@@ -49,13 +49,14 @@ ul {
     height: 100px;
 }
 li {
+    padding-top: 40px;
     float: right;
 }
 li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 60px 20px 10px 20px;
+    padding: 20px 20px 20px 20px;
     text-decoration: none;
 }
 
@@ -72,14 +73,14 @@ h3 {
     width: 100%;
     background-color: #101010;
     transition-duration: .1s;
-    transform: translate(0,12px)
+    transform: translate(0,12px);
 }
 .active{
     background-color: #D3D3D3;
 }
 a:hover + .bottom{
     transition-duration: .5s;
-    transform: translate(0,0px)
+    transform: translate(0,-10px)
 }
 
 .bar{
