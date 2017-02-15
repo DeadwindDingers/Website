@@ -74,8 +74,8 @@ h3 {
     transition-duration: .1s;
     transform: translate(0,12px)
 }
-a:.active{
-    background-color: #101010;
+.active{
+    background-color: #D3D3D3;
 }
 a:hover + .bottom{
     transition-duration: .5s;
