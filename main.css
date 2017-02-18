@@ -119,11 +119,20 @@ table {
 }
 
 td, th {
-    border: 1px solid #dddddd;
+    border: 0px solid #dddddd;
     text-align: left;
     padding: 8px;
+    /* background-color: #F4F7F6; */
 }
 
 tr:nth-child(even) {
+    background-color: #C0C0C0;
+}
+
+th {
+    background-color: #F8F7F6;
+}
+
+tr:nth-child(odd) {
     background-color: #dddddd;
 }
