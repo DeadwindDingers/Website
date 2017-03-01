@@ -19,11 +19,13 @@ body{
 }
 #content{
     padding-top: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 10vw;
+    padding-right: 10vw;
     text-align: left;
     font-family: 'Roboto Slab', serif;
 }
+
+
 
 /*
 #footer{
@@ -135,4 +137,8 @@ th {
 
 tr:nth-child(odd) {
     background-color: #dddddd;
+}
+
+#emailText {
+    font-size: 5vw;
 }
