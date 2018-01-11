@@ -10,7 +10,6 @@ body{
     padding:0;
     height:100%;
 }
-
 #header{
     position: fixed;
     background: #F4F7F6;
@@ -44,16 +43,18 @@ ul {
 
 li {
     font-size: 22px;
-    width: 130px;
+    max-width: 130px;
+    width: 10vw;
     padding-top: 14px;
     float: right;
+    min-width: max-content;
 }
 
 li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 20px 20px 20px 20px;
+    padding: 20px 4px 20px 4px;
     text-decoration: none;
 }
 
@@ -128,7 +129,14 @@ th {
 tr:nth-child(odd) {
     background-color: #dddddd;
 }
-
+#center {
+    text-align: center;
+}
+#logo {
+    max-width: 300px;
+    max-height: 300px;
+    height: 20vw;
+}
 #emailText {
     font-size: 5vw;
 }
